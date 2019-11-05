@@ -26,22 +26,22 @@ The web application uses TensorFlow with GPU support on local machine. Follow [t
 There should be necessary to install keras libraries to run the code. To run the app it is necessary to install flask. And it is recommended that you create a virtual environment in Anaconda to install those libraries.
 To run the app, open Anaconda prompt, activate the enviroment, and run (on Windows): 
 
-'''
+```
 set FLASK_APP=dog_breed_project.py
 flask run --host:0.0.0.0
-'''
+```
 
 On Linux and Mac type:
 
-'''
+```
 execute FLASK_APP=dog_breed_project.py
 flask run --host:0.0.0.0
-'''
+```
 
 After that, open the browser and use your local IP, type:
-'''
+```
 your_IP/static/predict.html
-'''
+```
 
 The application olny accepts .png image files, that can be uploaded to the html page and classified by pressing the "Classify" button.
 
