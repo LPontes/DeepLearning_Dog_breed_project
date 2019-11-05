@@ -54,7 +54,7 @@ The other files are for the pre-trained CNN and for the face and dog detector fu
 
 ## Results<a name="results"></a>
 
-The dog breed classifier obtained a 86% accuracy score on the test dataset.
+The dog breed classifier obtained a 80% accuracy score on the test dataset.
 Have fun by finding which dog breed an human face looks like.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
